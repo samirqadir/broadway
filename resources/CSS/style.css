@@ -1,0 +1,48 @@
+/* define font and text alignment for the entire page */
+body {
+  font-family: Helvetica;
+  text-align: center;
+}
+
+/* background and text color for sections with background image */
+.back_img {
+  background-image: url("../the-flatiron-building.png");
+  color: White;
+}
+
+/* main heading font size */
+h1 {
+  font-size: 70px;
+  font-weight: bold;
+}
+
+/* sub-headings font size*/
+h2 {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+/* sub-sub-headings font size */
+h3 {
+  font-size: 23px;
+  font-weight: bold;
+}
+
+/* font color and size for anchor elements */
+a {
+  font-size: 18px;
+  color: white;
+}
+
+/* font size for general text */
+p {
+  font-size: 14px;
+}
+
+/* footer style, including alignment and text size */
+.footer {
+  text-align: left;
+  background-color: dimgray;
+  color: white;
+  font-size: 11px;
+}
